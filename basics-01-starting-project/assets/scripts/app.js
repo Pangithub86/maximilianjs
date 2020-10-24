@@ -1,6 +1,7 @@
- let currentResult = 0; 
+const defaultResult = 0;
+let currentResult = defaultResult; 
 
- currentResult = (currentResult + 10) * 3 / 2 - 1;
+ defaultResult = (currentResult + 10) * 3 / 2 - 1;
 
  let calculationDescription = '(' + currentResult + ' + 10) * 3 / 2 - 1';
 
